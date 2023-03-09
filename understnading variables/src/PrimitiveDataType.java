@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+
 public class PrimitiveDataType {
     public static void main(String[] args){
         int max = 2147483647; //max value for int data type
@@ -19,11 +21,20 @@ public class PrimitiveDataType {
         double percentage  = marker * 0.46f;
 
 
-        System.out.println("Percentage:"+percentage);
+//        System.out.println("Percentage:"+percentage);
 
 
-        boolean var = false;
-        System.out.println(var);
+//        boolean var = false;
+//        System.out.println(var);
+
+
+        //Big Decimal
+        double x = 1.42;
+        double y = 2.55;
+        System.out.println(x+y);
+        BigDecimal d1 = new BigDecimal("1.05");
+        BigDecimal d2 = new BigDecimal("2.55");
+        System.out.println(d1.add(d2));
 
     }
 }
