@@ -22,5 +22,23 @@ public class IfElse {
         }else if(u || v){
             System.out.println("or condition compiled");
         }
+
+        int q = 12;
+        int w = 19;
+        if((q<w)&& (q==w)){
+            System.out.println("Hello");
+        }else{
+            System.out.println("No");
+        }
+
+
+        int ageOfBoy = 21;
+        int ageOfGirl = 18;
+
+        if(ageOfBoy>=21 && ageOfGirl>=18){
+            System.out.println("ready to get married");
+        }else{
+            System.out.println("Wait for it kiddo");
+        }
     }
 }
