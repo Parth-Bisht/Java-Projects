@@ -19,4 +19,9 @@ public class Bike extends Vehicle {
     public String toString(){
         return "Bike [getHandle()="+getHandle()+", getEngine()="+getEngine()+ ", getWheels()="+getWheels()+", getLights()="+getLights()+",getFuelTank()="+getFuelTank()+"]";
     }
+
+    public void run(){
+        System.out.println("Running bike ");
+        System.out.println(toString());
+    }
 }

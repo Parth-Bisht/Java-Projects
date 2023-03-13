@@ -8,8 +8,9 @@ public class Main {
 //        System.out.println(bike.getHandle());
 //        System.out.println(bike.getWheels());
 //        System.out.println(bike.getSeats());
-        System.out.println(bike);
-        System.out.println(car);
-        System.out.println(truck);
+//        System.out.println(bike);
+//        System.out.println(car);
+//        System.out.println(truck);
+        bike.run();
     }
 }

@@ -40,4 +40,8 @@ public class Vehicle {
     public String getLights() {
         return lights;
     }
+
+    public void run(){
+        System.out.println("Running vechile ");
+    }
 }
