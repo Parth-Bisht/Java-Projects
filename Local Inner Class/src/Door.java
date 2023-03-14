@@ -1,5 +1,5 @@
 public class Door {
-    public boolean isLocked(String key){
+    public boolean isLocked(String key ){
         class Lock{
             public boolean isLocked(String key){
                 if(key.equals("qwerty")){
