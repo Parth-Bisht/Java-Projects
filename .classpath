@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Abstract Class/src"/>
+	<classpathentry kind="src" path="Anonymous Inner Class/src"/>
+	<classpathentry kind="src" path="Arithmetic Operators/src"/>
+	<classpathentry kind="src" path="ArrayList/src"/>
+	<classpathentry kind="src" path="Arrays/src"/>
+	<classpathentry kind="src" path="Bounded type parameter/src"/>
+	<classpathentry kind="src" path="Comparable interface/src"/>
+	<classpathentry kind="src" path="Compariable Interface/src"/>
+	<classpathentry kind="src" path="Composition/src"/>
+	<classpathentry kind="src" path="create a directory/src"/>
+	<classpathentry kind="src" path="Create file on disk/src"/>
+	<classpathentry kind="src" path="Custom sorting using comparator/src"/>
+	<classpathentry kind="src" path="Default Constructor/src"/>
+	<classpathentry kind="src" path="Dequeue/src"/>
+	<classpathentry kind="src" path="Enums/src"/>
+	<classpathentry kind="src" path="Exception Handling/src"/>
+	<classpathentry kind="src" path="Exercise/src"/>
+	<classpathentry kind="src" path="File Deletion/src"/>
+	<classpathentry kind="src" path="Final Keyword/src"/>
+	<classpathentry kind="src" path="firstJavaProgram/src"/>
+	<classpathentry kind="src" path="Flow Control/src"/>
+	<classpathentry kind="src" path="Generic Methods/src"/>
+	<classpathentry kind="src" path="Generics-II/src"/>
+	<classpathentry kind="src" path="Generics/src"/>
+	<classpathentry kind="src" path="Hibernate/src"/>
+	<classpathentry kind="src" path="Inheritance-program/src"/>
+	<classpathentry kind="src" path="Inheritance/src"/>
+	<classpathentry kind="src" path="Inner Classes/src"/>
+	<classpathentry kind="src" path="Interface/src"/>
+	<classpathentry kind="src" path="lambda/src"/>
+	<classpathentry kind="src" path="lamda with variables/src"/>
+	<classpathentry kind="src" path="Linked List/src"/>
+	<classpathentry kind="src" path="Local Inner Class/src"/>
+	<classpathentry kind="src" path="Maps/src"/>
+	<classpathentry kind="src" path="Methods/src"/>
+	<classpathentry kind="src" path="More about lambda/src"/>
+	<classpathentry kind="src" path="OOPS/src"/>
+	<classpathentry kind="src" path="Packages/src"/>
+	<classpathentry kind="src" path="Predicates/src"/>
+	<classpathentry kind="src" path="Prime Number/src"/>
+	<classpathentry kind="src" path="Queue/src"/>
+	<classpathentry kind="src" path="Read a file/src"/>
+	<classpathentry kind="src" path="read file using scanner/src"/>
+	<classpathentry kind="src" path="Serialization of Objects/src"/>
+	<classpathentry kind="src" path="sets/src"/>
+	<classpathentry kind="src" path="Throw and throws/src"/>
+	<classpathentry kind="src" path="TreeMap/src"/>
+	<classpathentry kind="src" path="Try with resources/src"/>
+	<classpathentry kind="src" path="Type parameters/src"/>
+	<classpathentry kind="src" path="understnading variables/src"/>
+	<classpathentry kind="src" path="untitled/src"/>
+	<classpathentry kind="src" path="User Input/src"/>
+	<classpathentry kind="src" path="wildcards in generics/src"/>
+	<classpathentry kind="src" path="Write in a file/src"/>
+	<classpathentry kind="output" path="Abstract Class/out/production/Abstract Class"/>
+</classpath>
