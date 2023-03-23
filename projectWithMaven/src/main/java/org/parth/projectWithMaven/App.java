@@ -20,7 +20,10 @@ public class App {
 		SessionFactory factory = new Configuration().configure().buildSessionFactory();
 
 		// creating student
-		Student st = new Student(1, "parth", "hld");
+		Student st = new Student();
+		st.setId(5);
+		st.setCity("CHINE");
+		st.setName("kimyoung");
 		
 		//creating object of address class		
 		Address ad = new Address();
@@ -34,7 +37,15 @@ public class App {
 		FileInputStream fis = new FileInputStream("src/main/java/pic.png");
 		byte[] data = new byte[fis.available()];
 		fis.read();
-		ad.setImage(data);		
+		ad.setImage(data);
+		
+		Address ad1 = new Address();
+		ad1.setStreet("street3");
+		ad1.setCity("HALDWANI");
+		ad1.setOpen(false);
+		ad1.setAddedDate(new Date());
+		ad1.setX(1221.3434d);
+		ad1.setImage(data);
 		
 		//opening session
 		Session session = factory.openSession();
@@ -42,6 +53,7 @@ public class App {
 		session.beginTransaction();
 		session.save(st);
 		session.save(ad);
+		session.save(ad1);
 		session.getTransaction().commit();
 
 		session.close();
