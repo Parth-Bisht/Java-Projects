@@ -39,19 +39,19 @@ public class MapDemo {
 		
 		Session session = factory.openSession();
 		
-//		session.beginTransaction();
-//		session.save(q1);
-//		session.save(a1);
-//		session.save(a2);
-//		session.save(a3);
-//		session.getTransaction().commit();
+		session.beginTransaction();
+		session.save(q1);
+		session.save(a1);
+		session.save(a2);
+		session.save(a3);
+		session.getTransaction().commit();
 		
 		Question q = (Question)session.get(Question.class, 1);
 		System.out.println(q.getQuestion());
 		
-		for(Answer a: q.getAnswers()) {
-			System.out.println(a.getAnswer());
-		}
+//		for(Answer a: q.getAnswers()) {
+//			System.out.println(a.getAnswer());
+//		}
 		
 		session.close();
 		factory.close();

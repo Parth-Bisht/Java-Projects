@@ -16,7 +16,7 @@ public class Project {
 	@Column(name="project_name")
 	private String projectName;
 	
-	@ManyToMany(mappedBy="projects")
+	@ManyToMany
 	private List<Emp> emps;
 
 	public Project(int pid, String projectName, List<Emp> emps) {
