@@ -16,5 +16,7 @@
 		<mapping class="org.parth.projectWithMaven.Address"/>
 		<mapping class="org.map.Question"/>
 		<mapping class="org.map.Answer"/>
+		<mapping class="org.mapmany.Emp"/>
+		<mapping class="org.mapmany.Project"/>
 	</session-factory>
 </hibernate-configuration>
