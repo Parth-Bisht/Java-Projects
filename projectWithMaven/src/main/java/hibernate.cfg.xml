@@ -14,5 +14,7 @@
 		<property name="show_sql">true</property>
 		<property name="format_sql">true</property>
 		<mapping class="org.parth.projectWithMaven.Student"/>
+		<mapping class="org.map.Answer"/>
+		<mapping class="org.map.Question"/>
 	</session-factory>
 </hibernate-configuration>
