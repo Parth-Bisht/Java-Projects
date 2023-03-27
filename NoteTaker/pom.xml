@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.todo</groupId>
-	<artifactId>NoteTaker</artifactId>
+	<groupId>org.parth</groupId>
+	<artifactId>projectWithMaven</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>NoteTaker</name>
+	<name>projectWithMaven</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -31,6 +31,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.32</version>
 		</dependency>
+
 
 		<dependency>
 			<groupId>junit</groupId>
