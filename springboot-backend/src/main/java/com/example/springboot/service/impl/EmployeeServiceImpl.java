@@ -8,9 +8,9 @@ import com.example.springboot.service.EmployeeService;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService{
-	
-	private EmployeeRepository employeeRepository;
 
+	private EmployeeRepository employeeRepository;
+	
 	public EmployeeServiceImpl(EmployeeRepository employeeRepository) {
 		super();
 		this.employeeRepository = employeeRepository;
@@ -18,8 +18,7 @@ public class EmployeeServiceImpl implements EmployeeService{
 
 	@Override
 	public Employee saveEmployee(Employee employee) {
-		// TODO Auto-generated method stub
 		return employeeRepository.save(employee);
 	}
-
+	
 }
