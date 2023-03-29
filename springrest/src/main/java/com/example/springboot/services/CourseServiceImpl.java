@@ -63,8 +63,8 @@ public class CourseServiceImpl implements CourseService {
 	@Override
 	public void deleteCourse(long courseId) {
 //		list = this.list.stream().filter(e->e.getId()!=courseId).collect(Collectors.toList());
-		Course entity = courseDao.getOne(courseId);
-		courseDao.delete(entity);
+//		Optional<Course> entity = courseDao.findById(courseId);
+		courseDao.deleteById(courseId);
 	}
 
 }
