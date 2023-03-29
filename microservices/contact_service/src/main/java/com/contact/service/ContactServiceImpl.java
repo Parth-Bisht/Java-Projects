@@ -1,6 +1,6 @@
-package service;
+package com.contact.service;
 
-import entity.Contact;
+import com.contact.entity.Contact;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
